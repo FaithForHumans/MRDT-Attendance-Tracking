@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mars Rover Attendance Tracking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error">An unexpected error as occurred.</string>
+    <string name="noNfc">No NFC has been detected on this phone.</string>
+    <string name="nfcDisabled">NFC is currently disabled.\nPlease enable it to continue.</string>
+    <string name="registerId">Register Id</string>
+    <string name="meetingAttendance">Meeting Attendance Tracking</string>
+
+</resources>

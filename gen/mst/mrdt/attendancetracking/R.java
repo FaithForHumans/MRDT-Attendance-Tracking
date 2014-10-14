@@ -26,10 +26,13 @@ public final class R {
         public static final int main_button_theme=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090003;
+        public static final int action_settings=0x7f090006;
         public static final int meetingAttendance=0x7f090001;
+        public static final int nfcIdField=0x7f090003;
+        public static final int personName=0x7f090002;
         public static final int registerId=0x7f090000;
-        public static final int textView1=0x7f090002;
+        public static final int submitButton=0x7f090004;
+        public static final int textView1=0x7f090005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -45,9 +48,12 @@ public final class R {
         public static final int error=0x7f060003;
         public static final int hello_world=0x7f060001;
         public static final int meetingAttendance=0x7f060007;
+        public static final int nameFieldHint=0x7f06000a;
         public static final int nfcDisabled=0x7f060005;
+        public static final int nfcIdFieldHint=0x7f060009;
         public static final int noNfc=0x7f060004;
         public static final int registerId=0x7f060006;
+        public static final int submit=0x7f060008;
     }
     public static final class style {
         /** 
@@ -76,7 +82,9 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        public static final int enterableText=0x7f070004;
         public static final int mainActivityButton=0x7f070002;
+        public static final int submitButton=0x7f070003;
     }
     public static final class xml {
         public static final int nfc_tech_list=0x7f040000;

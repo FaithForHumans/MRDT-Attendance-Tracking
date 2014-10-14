@@ -11,6 +11,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -18,7 +21,7 @@ public class MainActivity extends Activity {
 
   private NfcAdapter nfcAdapter;
   //private PendingIntent pendingIntent;
-  TextView tempView;
+  private Button logId;
   
   private AlertDialog alertDialog;
   
@@ -30,7 +33,15 @@ public class MainActivity extends Activity {
     alertDialog = new AlertDialog.Builder(this).setNeutralButton("OK",
         null).create();
     
-    tempView = (TextView) findViewById(R.id.textView1);
+    logId = (Button) findViewById(R.id.registerId);
+    logId.setOnClickListener(new OnClickListener() {
+
+      @Override
+      public void onClick(View view) {
+        startActivity(new Intent(view.getContext(), AttendanceUploader.class));
+      }
+      
+    });
     
     nfcAdapter = NfcAdapter.getDefaultAdapter(this);
     if ( nfcAdapter == null ) {

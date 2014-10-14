@@ -9,5 +9,8 @@
     <string name="nfcDisabled">NFC is currently disabled.\nPlease enable it to continue.</string>
     <string name="registerId">Register Id</string>
     <string name="meetingAttendance">Meeting Attendance Tracking</string>
+    <string name="submit">Submit</string>
+    <string name="nfcIdFieldHint">Autofilled on a successful ID scan.</string>
+    <string name="nameFieldHint">First and last name here</string>
 
 </resources>

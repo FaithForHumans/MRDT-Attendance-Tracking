@@ -10,7 +10,7 @@
     <string name="registerId">Register Id</string>
     <string name="meetingAttendance">Meeting Attendance Tracking</string>
     <string name="submit">Submit</string>
-    <string name="nfcIdFieldHint">Autofilled on a successful ID scan.</string>
-    <string name="nameFieldHint">First and last name here</string>
+    <string name="nfcIdFieldHint">Autofilled on a successful ID scan</string>
+    <string name="nameFieldHint">Input first and last name here</string>
 
 </resources>

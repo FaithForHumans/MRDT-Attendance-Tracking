@@ -29,6 +29,7 @@
         <item name="android:layout_marginLeft">20dip</item>
         <item name="android:layout_marginRight">20dip</item>
         <item name="android:background">@drawable/main_button_theme</item>
+        <item name="android:ellipsize">end</item>
     </style>
     
     <style

@@ -3,37 +3,4 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-
-    <EditText
-        android:id="@+id/personName"
-        style="@style/enterableText"
-        android:inputType="textPersonName"
-        android:hint="@string/nameFieldHint" >
-
-        <requestFocus />
-    </EditText>
-
-    <EditText
-        android:id="@+id/nfcIdField"
-        style="@style/enterableText"
-        android:clickable="false"
-        android:focusable="false"
-        android:hint="@string/nfcIdFieldHint" >
-    </EditText>
-    
-    <LinearLayout
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:layout_weight="1"
-      android:gravity="center|bottom">
-        
-        <Button
-            android:id="@+id/submitButton"
-            style="@style/submitButton"
-            android:text="@string/submit"
-        />
-        
-    </LinearLayout>
-    
 </LinearLayout>
